@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E923211323F80CDB008E2A20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E923211223F80CDB008E2A20 /* AppDelegate.m */; };
+		E923211623F80CDB008E2A20 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E923211523F80CDB008E2A20 /* SceneDelegate.m */; };
+		E923211923F80CDB008E2A20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E923211823F80CDB008E2A20 /* ViewController.m */; };
+		E923211C23F80CDB008E2A20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E923211A23F80CDB008E2A20 /* Main.storyboard */; };
+		E923211E23F80CDC008E2A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E923211D23F80CDC008E2A20 /* Assets.xcassets */; };
+		E923212123F80CDC008E2A20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E923211F23F80CDC008E2A20 /* LaunchScreen.storyboard */; };
+		E923212423F80CDC008E2A20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E923212323F80CDC008E2A20 /* main.m */; };
+		E923212E23F80CDC008E2A20 /* _3_UIStepperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E923212D23F80CDC008E2A20 /* _3_UIStepperTests.m */; };
+		E923213923F80CDC008E2A20 /* _3_UIStepperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E923213823F80CDC008E2A20 /* _3_UIStepperUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E923212A23F80CDC008E2A20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E923210623F80CDB008E2A20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E923210D23F80CDB008E2A20;
+			remoteInfo = "13-UIStepper";
+		};
+		E923213523F80CDC008E2A20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E923210623F80CDB008E2A20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E923210D23F80CDB008E2A20;
+			remoteInfo = "13-UIStepper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E923210E23F80CDB008E2A20 /* 13-UIStepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "13-UIStepper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E923211123F80CDB008E2A20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E923211223F80CDB008E2A20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E923211423F80CDB008E2A20 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E923211523F80CDB008E2A20 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E923211723F80CDB008E2A20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E923211823F80CDB008E2A20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E923211B23F80CDB008E2A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E923211D23F80CDC008E2A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E923212023F80CDC008E2A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E923212223F80CDC008E2A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E923212323F80CDC008E2A20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E923212923F80CDC008E2A20 /* 13-UIStepperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "13-UIStepperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E923212D23F80CDC008E2A20 /* _3_UIStepperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_UIStepperTests.m; sourceTree = "<group>"; };
+		E923212F23F80CDC008E2A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E923213423F80CDC008E2A20 /* 13-UIStepperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "13-UIStepperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E923213823F80CDC008E2A20 /* _3_UIStepperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_UIStepperUITests.m; sourceTree = "<group>"; };
+		E923213A23F80CDC008E2A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E923210B23F80CDB008E2A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E923212623F80CDC008E2A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E923213123F80CDC008E2A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E923210523F80CDB008E2A20 = {
+			isa = PBXGroup;
+			children = (
+				E923211023F80CDB008E2A20 /* 13-UIStepper */,
+				E923212C23F80CDC008E2A20 /* 13-UIStepperTests */,
+				E923213723F80CDC008E2A20 /* 13-UIStepperUITests */,
+				E923210F23F80CDB008E2A20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E923210F23F80CDB008E2A20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E923210E23F80CDB008E2A20 /* 13-UIStepper.app */,
+				E923212923F80CDC008E2A20 /* 13-UIStepperTests.xctest */,
+				E923213423F80CDC008E2A20 /* 13-UIStepperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E923211023F80CDB008E2A20 /* 13-UIStepper */ = {
+			isa = PBXGroup;
+			children = (
+				E923211123F80CDB008E2A20 /* AppDelegate.h */,
+				E923211223F80CDB008E2A20 /* AppDelegate.m */,
+				E923211423F80CDB008E2A20 /* SceneDelegate.h */,
+				E923211523F80CDB008E2A20 /* SceneDelegate.m */,
+				E923211723F80CDB008E2A20 /* ViewController.h */,
+				E923211823F80CDB008E2A20 /* ViewController.m */,
+				E923211A23F80CDB008E2A20 /* Main.storyboard */,
+				E923211D23F80CDC008E2A20 /* Assets.xcassets */,
+				E923211F23F80CDC008E2A20 /* LaunchScreen.storyboard */,
+				E923212223F80CDC008E2A20 /* Info.plist */,
+				E923212323F80CDC008E2A20 /* main.m */,
+			);
+			path = "13-UIStepper";
+			sourceTree = "<group>";
+		};
+		E923212C23F80CDC008E2A20 /* 13-UIStepperTests */ = {
+			isa = PBXGroup;
+			children = (
+				E923212D23F80CDC008E2A20 /* _3_UIStepperTests.m */,
+				E923212F23F80CDC008E2A20 /* Info.plist */,
+			);
+			path = "13-UIStepperTests";
+			sourceTree = "<group>";
+		};
+		E923213723F80CDC008E2A20 /* 13-UIStepperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E923213823F80CDC008E2A20 /* _3_UIStepperUITests.m */,
+				E923213A23F80CDC008E2A20 /* Info.plist */,
+			);
+			path = "13-UIStepperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E923210D23F80CDB008E2A20 /* 13-UIStepper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E923213D23F80CDC008E2A20 /* Build configuration list for PBXNativeTarget "13-UIStepper" */;
+			buildPhases = (
+				E923210A23F80CDB008E2A20 /* Sources */,
+				E923210B23F80CDB008E2A20 /* Frameworks */,
+				E923210C23F80CDB008E2A20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13-UIStepper";
+			productName = "13-UIStepper";
+			productReference = E923210E23F80CDB008E2A20 /* 13-UIStepper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E923212823F80CDC008E2A20 /* 13-UIStepperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E923214023F80CDC008E2A20 /* Build configuration list for PBXNativeTarget "13-UIStepperTests" */;
+			buildPhases = (
+				E923212523F80CDC008E2A20 /* Sources */,
+				E923212623F80CDC008E2A20 /* Frameworks */,
+				E923212723F80CDC008E2A20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E923212B23F80CDC008E2A20 /* PBXTargetDependency */,
+			);
+			name = "13-UIStepperTests";
+			productName = "13-UIStepperTests";
+			productReference = E923212923F80CDC008E2A20 /* 13-UIStepperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E923213323F80CDC008E2A20 /* 13-UIStepperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E923214323F80CDC008E2A20 /* Build configuration list for PBXNativeTarget "13-UIStepperUITests" */;
+			buildPhases = (
+				E923213023F80CDC008E2A20 /* Sources */,
+				E923213123F80CDC008E2A20 /* Frameworks */,
+				E923213223F80CDC008E2A20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E923213623F80CDC008E2A20 /* PBXTargetDependency */,
+			);
+			name = "13-UIStepperUITests";
+			productName = "13-UIStepperUITests";
+			productReference = E923213423F80CDC008E2A20 /* 13-UIStepperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E923210623F80CDB008E2A20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = duanyong;
+				TargetAttributes = {
+					E923210D23F80CDB008E2A20 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					E923212823F80CDC008E2A20 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E923210D23F80CDB008E2A20;
+					};
+					E923213323F80CDC008E2A20 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E923210D23F80CDB008E2A20;
+					};
+				};
+			};
+			buildConfigurationList = E923210923F80CDB008E2A20 /* Build configuration list for PBXProject "13-UIStepper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E923210523F80CDB008E2A20;
+			productRefGroup = E923210F23F80CDB008E2A20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E923210D23F80CDB008E2A20 /* 13-UIStepper */,
+				E923212823F80CDC008E2A20 /* 13-UIStepperTests */,
+				E923213323F80CDC008E2A20 /* 13-UIStepperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E923210C23F80CDB008E2A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E923212123F80CDC008E2A20 /* LaunchScreen.storyboard in Resources */,
+				E923211E23F80CDC008E2A20 /* Assets.xcassets in Resources */,
+				E923211C23F80CDB008E2A20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E923212723F80CDC008E2A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E923213223F80CDC008E2A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E923210A23F80CDB008E2A20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E923211923F80CDB008E2A20 /* ViewController.m in Sources */,
+				E923211323F80CDB008E2A20 /* AppDelegate.m in Sources */,
+				E923212423F80CDC008E2A20 /* main.m in Sources */,
+				E923211623F80CDB008E2A20 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E923212523F80CDC008E2A20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E923212E23F80CDC008E2A20 /* _3_UIStepperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E923213023F80CDC008E2A20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E923213923F80CDC008E2A20 /* _3_UIStepperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E923212B23F80CDC008E2A20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E923210D23F80CDB008E2A20 /* 13-UIStepper */;
+			targetProxy = E923212A23F80CDC008E2A20 /* PBXContainerItemProxy */;
+		};
+		E923213623F80CDC008E2A20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E923210D23F80CDB008E2A20 /* 13-UIStepper */;
+			targetProxy = E923213523F80CDC008E2A20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E923211A23F80CDB008E2A20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E923211B23F80CDB008E2A20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E923211F23F80CDC008E2A20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E923212023F80CDC008E2A20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E923213B23F80CDC008E2A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E923213C23F80CDC008E2A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E923213E23F80CDC008E2A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "13-UIStepper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonghua-arch.-3-UIStepper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E923213F23F80CDC008E2A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "13-UIStepper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonghua-arch.-3-UIStepper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E923214123F80CDC008E2A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "13-UIStepperTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonghua-arch.-3-UIStepperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/13-UIStepper.app/13-UIStepper";
+			};
+			name = Debug;
+		};
+		E923214223F80CDC008E2A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "13-UIStepperTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonghua-arch.-3-UIStepperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/13-UIStepper.app/13-UIStepper";
+			};
+			name = Release;
+		};
+		E923214423F80CDC008E2A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "13-UIStepperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonghua-arch.-3-UIStepperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "13-UIStepper";
+			};
+			name = Debug;
+		};
+		E923214523F80CDC008E2A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "13-UIStepperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonghua-arch.-3-UIStepperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "13-UIStepper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E923210923F80CDB008E2A20 /* Build configuration list for PBXProject "13-UIStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E923213B23F80CDC008E2A20 /* Debug */,
+				E923213C23F80CDC008E2A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E923213D23F80CDC008E2A20 /* Build configuration list for PBXNativeTarget "13-UIStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E923213E23F80CDC008E2A20 /* Debug */,
+				E923213F23F80CDC008E2A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E923214023F80CDC008E2A20 /* Build configuration list for PBXNativeTarget "13-UIStepperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E923214123F80CDC008E2A20 /* Debug */,
+				E923214223F80CDC008E2A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E923214323F80CDC008E2A20 /* Build configuration list for PBXNativeTarget "13-UIStepperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E923214423F80CDC008E2A20 /* Debug */,
+				E923214523F80CDC008E2A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E923210623F80CDB008E2A20 /* Project object */;
+}
